@@ -1,0 +1,17 @@
+.todoList {
+    margin: 30px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8e9f6;
+}
+
+.todoList-header__title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

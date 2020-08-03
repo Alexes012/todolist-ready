@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+}
+
+.todoList {
+  width: 300px;
+}
+
+.todoList > div {
+  padding: 10px;
+}
+
+.todoList-task {
+
+}
+
+.todoList-task.done {
+  opacity: 0.5;
+}
+.classForAll {
+
+}
+.filter-active {
+
+  background-color: #8ef5ff;
+}
+
+.error {
+  border-color: red;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

@@ -1,0 +1,72 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newTodolist {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.classNameForInput {
+    height: 35px;
+    width: 250px;
+}
+
+.buttonsColl {
+    width: 200px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+.customBtn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.btn9 {
+    height: 30px;
+    width: 150px;
+    background: #f2f2f2;
+    font-size: 18px;
+    border: 1px solid #000;
+    transition: all 0.3s ease;
+}
+.btn9:before,
+.btn9:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    width: 25%;
+    top: 50%;
+    height: 1px;
+    background: #000;
+    transition: all 0.3s ease;
+}
+.btn9:before {
+    left: -10%;
+}
+.btn9:after {
+    right: -10%;
+}
+.btn9:hover {
+    background: #000;
+    color: #fff;
+}
+.btn9:hover:before {
+    left: -15%;
+}
+.btn9:hover:after {
+    right: -15%;
+}
